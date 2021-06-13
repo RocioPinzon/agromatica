@@ -1,0 +1,449 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway');
+
+html body{
+    background-color: #EBEBEB;
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+}
+
+p{
+    margin-bottom: 0;
+}
+
+
+header{
+    width: 100%;
+    background: #fff;
+    color: #000;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+
+}
+
+header .menuMovil{
+
+    display: none;
+}
+
+header .menu-navegaciong-general{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width: 1175px;
+    margin: 0 auto;
+
+
+}
+
+header .menu-navegaciong-general, .logo{
+    
+    padding-top: 5px;
+}
+
+
+header .menu-navegaciong-general nav ul li{
+
+    padding: 5px 15px;
+    display: inline-block;
+    vertical-align: baseline;
+}
+
+header .menu-navegaciong-general nav ul li:last-child{
+
+    padding-right: 0px;
+}
+
+header .menu-navegaciong-general nav ul li a{
+
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+
+
+}
+
+header .sbutton:before {
+    position: relative;
+    content: "\f002";
+    font-family: FontAwesome;
+    font-size: 18px;
+    text-indent: initial;
+}
+
+
+#inputPlaceholder{
+
+    padding: 5px 10px 5px 0;
+    text-indent: 15px;
+    border-radius: 5px;
+    border: 1px solid #e2e2e2;
+
+}
+
+#inputPlaceholder::placeholder{
+
+    font-size: 14px;
+}
+
+
+
+main{
+
+    width: 100%;
+    max-width: 1150px;
+    margin: 0 auto;
+    margin-top: 35px;
+    background: #fff;
+    
+}
+
+
+.contenedor-principal{
+
+    padding: 5%;
+    margin-bottom: 35px;
+
+}
+
+main h2{
+
+    font-weight: 500;
+    font-size: 38px;
+}
+
+
+
+main article{
+
+    color: #000;
+    padding: 5px 25px;
+    
+
+}
+
+main .h3{
+
+    padding-left: 10px;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+
+
+main section article h3{
+
+    margin-top: 13px;
+    text-align: left;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+main section article h3 a, h3{
+
+    color: #007831;
+    text-decoration: none;
+    text-transform: none;
+}
+main section article h3 a:hover{
+
+    color: #007831;
+    
+}
+
+main section article p{
+
+    font-size: 14px;
+    color: #777;
+    text-align: left;
+}
+
+main section article .img-main{
+
+    vertical-align: middle;
+    margin: 0 auto;
+    max-width: 350px;
+}
+
+
+
+main section article .img-main img{
+
+    width: 100%;
+
+}
+
+main article p{
+
+    margin-bottom: 0px;
+
+}
+
+
+.widgets .widget{
+
+    padding: 10px;
+    text-align: center;
+    width: 33.3%;
+}
+
+
+.categoriasPrincipales .catPrincipal{
+
+    margin-top: 40px;
+    padding: 15px;
+    text-align: center;
+    width: 25%;
+}
+
+.categoriasPrincipales h3{
+
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.categoriasPrincipales .catPrincipal p{
+
+    padding-top: 20px;
+    font-size: 16px;
+    color: #000;
+    font-weight: 550;
+}
+.img-cat-principales{
+
+    vertical-align: middle;
+    margin: 0 auto;
+    max-width: 250px;
+
+}
+.img-cat-principales img{
+
+    width: 100%;
+
+}
+
+
+main .widgets h4{
+
+    color: #007831;  
+    font-size: 14px;
+    font-weight: 700;
+    padding: 20px 0px ;
+}
+
+
+
+.categoriasPrincipales h3{
+
+    
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.leerMas .catLeerMas{
+
+    padding: 15px 10px 0px 10px;
+    text-align: center;
+    width: 25%;
+}
+
+.leerMas .catLeerMas h3{
+
+    font-size: 20px;
+    padding: 15px 0px 10px 0px;
+}
+
+.leerMas .catLeerMas .img-cat-leerMas{
+
+    margin: 0 auto;
+    max-width: 250px;
+}
+
+
+.leerMas .catLeerMas .img-cat-leerMas img{
+    width: 100%;
+    height: 133.59px;
+  }
+
+@supports(object-fit: cover){
+      .leerMas .catLeerMas .img-cat-leerMas img{
+        height: 133.59px;
+        object-fit: cover;
+        object-position: center center;
+    }
+}
+
+main .widgets .widget{
+
+    text-align: left;   
+}
+
+main .widgets .widget ul{
+
+    padding: 20px 40px;
+}
+
+main .widgets .widget ul li{
+
+    list-style-type: square;
+    text-align: left;
+    padding: 0px;
+}
+
+
+main .widgets .widget ul li a{
+
+    text-decoration: none;
+    color: #000;
+
+}
+
+div.centradoCeldas{
+
+    justify-content: center;
+    margin: 0 auto;
+
+}
+
+footer{
+
+    background: #fff;
+    padding: 40px 0px 0px 0px;
+    margin-top: 20px;
+    margin: 0 auto;
+}
+
+footer section.centradoFooter{
+
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 8px;
+    
+}
+
+footer section.creditos{
+
+background-color: #000;
+
+
+}
+
+footer section div h4{
+
+    font-weight: 500;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+}
+
+div.etiquetas{
+
+    margin-bottom: 30px;
+    width: 100%;
+
+}
+
+footer h4{
+
+    margin-bottom: 20px;
+
+}
+footer section div a.buton{
+
+    background-color: rgb(0, 120, 49);
+    margin-bottom: 3px;
+    color: #fff;
+    text-decoration: none;
+    padding: 2px 10px;
+    border-radius: 5px;
+    float: left;
+    margin: 2px;
+
+   
+}
+
+footer section div .buton:hover{
+
+    
+    background: rgb(34, 34, 34);
+    transition: all 0.25s linear 0s;
+    border-radius: 3px;
+   
+}
+
+footer div ul.redesS{
+    width: 200px;
+    justify-content: left;
+}
+footer div ul.redesS li{
+    display: inline-block;
+}
+
+
+footer div ul a.botonesEstructura{
+    width: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: baseline;
+    /* align-content: flex-start; */
+    flex-wrap: wrap;
+}
+
+a.botonesEstructura img{
+    width: 100%;
+}
+
+ul.listadoFooter1{
+
+    list-style-type: square;
+    
+
+}
+
+ul.listadoFooter1 li a{
+
+    text-decoration: none;
+    color: #000;
+}
+
+div.colorCreditos{
+
+    width: 1200px;
+    margin: 0 auto;
+    align-items: baseline;
+}
+
+
+div.colorCreditos p{
+
+    margin: 0;
+}
+
+
+div.colorCreditos p a{
+
+    width: 1200px;
+    margin: 0 auto;
+    color: rgb(0, 120, 49);
+    text-decoration: none;
+}
+
+
+@media screen and (device-width: 850px){
+
+
+    main .widgets .widget {
+        text-align: left;
+        width: 100%;
+    }
+
+    main section article .img-main {
+        vertical-align: middle;
+        margin: 0 auto;
+        max-width: 650px;
+    }
+}
