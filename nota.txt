@@ -1,0 +1,5 @@
+
+Elementos que se ocultan con en tablet y movil:
+
+	- input menu - el buscador desaparece. 
+	- bloque seccion - Apartado-> Guia de agricultura

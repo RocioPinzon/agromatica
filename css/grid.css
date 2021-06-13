@@ -46,7 +46,7 @@ header .menu-navegaciong-general, .logo{
 header .menu-navegaciong-general nav ul li{
 
     padding: 5px 15px;
-    display: inline-block;
+    display: flexbox;
     vertical-align: baseline;
 }
 
@@ -61,8 +61,6 @@ header .menu-navegaciong-general nav ul li a{
     font-weight: 500;
     font-size: 16px;
     color: #000000;
-
-
 }
 
 header .sbutton:before {
@@ -133,7 +131,7 @@ main .h3{
 
 
 
-main section article h3{
+main section article.widget h3{
 
     margin-top: 13px;
     text-align: left;
@@ -182,13 +180,12 @@ main article p{
 }
 
 
-.widgets .widget{
+main .widgets .widget{
 
     padding: 10px;
-    text-align: center;
+    text-align: left;
     width: 33.3%;
 }
-
 
 .categoriasPrincipales .catPrincipal{
 
@@ -276,10 +273,6 @@ main .widgets h4{
     }
 }
 
-main .widgets .widget{
-
-    text-align: left;   
-}
 
 main .widgets .widget ul{
 
@@ -436,14 +429,29 @@ div.colorCreditos p a{
 @media screen and (device-width: 850px){
 
 
-    main .widgets .widget {
-        text-align: left;
-        width: 100%;
+    div.logo {
+    
+        margin-bottom: 20px;
     }
 
-    main section article .img-main {
-        vertical-align: middle;
-        margin: 0 auto;
-        max-width: 650px;
+    
+
+    header .menu-navegaciong-general nav ul li a{
+
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 14px;
+        color: #000000;
+    }
+
+    section.responsive{
+
+        display: inline-flex;
+
+    }
+
+    article.responsive2{
+
+        width: 100%;
     }
 }
